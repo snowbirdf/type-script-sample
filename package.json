@@ -2,7 +2,10 @@
   "name": "typescript-node-base",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts"
+  },
   "dependencies": {
     "@types/node": "^12.12.17",
     "ts-node": "^8.5.4",
